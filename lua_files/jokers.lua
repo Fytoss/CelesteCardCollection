@@ -4340,7 +4340,7 @@ local safetygear = SMODS.Joker({
 	}
 })
 
-safetygear.calculate = function(self,card,context)
+safetygear.calculate = function(self, card, context)
 
 	
 
