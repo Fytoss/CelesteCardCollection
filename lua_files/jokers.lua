@@ -4312,6 +4312,42 @@ end
 ]]
 -- endregion Shattersong
 
+-- region Safety Gear
+
+local safetygear = SMODS.Joker({
+	name = "ccc_safetygear",
+	key = "safetygear",
+	config = {extra = {}},
+	pos
+	loc_txt = {
+	name = 'Safety Gear',
+	text = {
+	"{C:attention}Sell{} this Joker to",
+	"gain 1 {C:attention}hand{} this round"
+	}
+    },
+	rarity = 1,
+	cost = 4,
+	discovered = true,
+	blueprint_compat = true,
+	eternal_compat = false,
+	perishable_compat = true,
+	atlas = "j_ccc_jokers",
+	credit = {
+		art = "N/A",
+		code = "Fytos",
+		concept = "Aurora Aquir"
+	}
+})
+
+safetygear.calculate = function(self,card,context)
+
+	
+
+end
+
+-- endregion Safety Gear
+
 -- region Badeline
 
 local badeline = SMODS.Joker({
